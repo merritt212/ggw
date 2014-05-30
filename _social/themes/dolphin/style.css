@@ -19,7 +19,7 @@ h1, h3, h4, h5 {
 font-family: 'Segoe UI', Tahoma, Arial, Verdana, sans-serif;
 font-weight: 300;
 }
-a {
+a, a:visited {
 color:#333;
 text-decoration: none;
 }
@@ -531,8 +531,7 @@ overflow: auto;
 float: left;
 }
 .message-type-map img, .message-type-map iframe {
-width: 100%;
-float: left;
+width: 100%; margin-bottom: 20px;
 }
 .message-type-image {
 float: left;
